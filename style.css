@@ -1,0 +1,125 @@
+/* BODY */
+body {
+    background-color: cyan;
+    background-image: url(images/bg-pattern-top.svg),
+     url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 75rem 70rem, 25rem 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+/* CARD  */
+.card-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-banner{
+    height: 150px;
+    width: 500px;
+    background-image: url(images/bg-pattern-card.svg);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-info{
+    background-color: azure;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-stats{
+    height: 200px;
+    width: 500px;
+    outline:gray solid 1px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.location{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.followers{
+    height: 100%;
+    width: 33%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.posts{
+    height: 100%;
+    width: 33%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.pictures{
+    height: 100%;
+    width: 33%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.number{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.type{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding-top: 20px;
+}
+
+img{
+    border-radius: 50%;
+}
